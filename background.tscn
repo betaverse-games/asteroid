@@ -8,7 +8,7 @@
 
 [node name="Space" type="Parallax2D" parent="."]
 scroll_scale = Vector2(0, 0.1)
-repeat_size = Vector2(0, 238)
+repeat_size = Vector2(0, 237)
 autoscroll = Vector2(0, 50)
 repeat_times = 2
 ignore_camera_scroll = true
