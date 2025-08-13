@@ -1,0 +1,37 @@
+[gd_scene load_steps=3 format=3 uid="uid://b0qj2ejgoaxrx"]
+
+[ext_resource type="Script" uid="uid://bvnib1lcknksn" path="res://title_screen.gd" id="1_ak2if"]
+[ext_resource type="PackedScene" uid="uid://c8slei4mmi0s7" path="res://background.tscn" id="2_ig5kc"]
+
+[node name="Title Screen" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ak2if")
+
+[node name="Background" parent="." instance=ExtResource("2_ig5kc")]
+
+[node name="GameNameLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 11.0
+offset_top = 106.0
+offset_right = 141.0
+offset_bottom = 151.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 32
+text = "Asteroid"
+
+[node name="PressStartLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 12.0
+offset_top = 162.0
+offset_right = 142.0
+offset_bottom = 211.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 16
+text = "Press Space
+to Start"
+horizontal_alignment = 1
