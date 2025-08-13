@@ -3,7 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://b0c18ycpek7br" path="res://player/meteorBrown_big1.png" id="1_oul6g"]
 [ext_resource type="Script" uid="uid://c6aelk3rqx6vl" path="res://player/player.gd" id="1_rkbax"]
 
-[node name="Player" type="CharacterBody2D"]
+[node name="BrownBig1" type="CharacterBody2D"]
 script = ExtResource("1_rkbax")
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
